@@ -234,6 +234,7 @@ header .mobile {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .feature h2 {
@@ -304,6 +305,12 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex; 
+}
+
+#filters-section img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 760px) {
@@ -340,13 +347,14 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  margin: 80px 0px;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
